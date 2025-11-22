@@ -23,7 +23,7 @@ RUN java -version
 WORKDIR /app
 
 # Copy your application JAR or build artifacts
-COPY target/memberdb-0.0.1-SNAPSHOT.jar /app/memberdb-0.0.1-SNAPSHOT.jar
+COPY memberdb-0.0.1-SNAPSHOT.jar /app/memberdb-0.0.1-SNAPSHOT.jar
 
 # Expose the port your app will run on
 EXPOSE 8080
